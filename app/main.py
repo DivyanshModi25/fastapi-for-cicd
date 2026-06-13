@@ -1,9 +1,10 @@
 from fastapi import FastAPI
-import os,sys
+import os
+import sys
 
 app =FastAPI()
 
-@app.get("/")
+@app.get("/health")
 def read_root():
-    return{"message":"Hello World"}
+    return{"status":"healthy"}
 
