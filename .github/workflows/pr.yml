@@ -13,7 +13,7 @@ permissions:
 
 jobs:
     pipeline:
-        uses: DivyanshModi25/cicd-pipeline/.github/workflows/ci.yml@main
+        uses: Horgwarts-castle/cicd-pipeline/.github/workflows/ci.yml@main
         
         with:
             python-version: '3.12'
